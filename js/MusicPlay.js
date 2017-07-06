@@ -46,7 +46,6 @@
 		_initEvent: function(){
 			var _this = this;
 			this.playBtn.addEventListener('click', function(){
-				debugger;
       			_this.icon.classList.contains(_this.iconStatusClass.play) ? _this.music.play() : _this.music.pause();
       			_this.icon.classList.toggle(_this.iconStatusClass.play);
       			_this.icon.classList.toggle(_this.iconStatusClass.pause);
